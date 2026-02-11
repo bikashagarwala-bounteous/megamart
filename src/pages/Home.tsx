@@ -29,10 +29,10 @@ const Home: React.FC = () => {
   const deals = products.slice(6, 14)
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+    <main className="min-h-screen bg-linear-to-b from-slate-50 to-white">
       <section className="container max-w-6xl mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="md:col-span-2 bg-gradient-to-r from-sky-500 to-sky-600 rounded-lg p-8 text-white">
+          <div className="md:col-span-2 bg-linear-to-r from-sky-500 to-sky-600 rounded-lg p-8 text-white">
             <h2 className="text-4xl font-bold">SMART WEARABLE.</h2>
             <p className="mt-2 text-sky-100">Best Deal Online on smart watches — up to 80% off</p>
             <div className="mt-6">
@@ -92,7 +92,7 @@ const Home: React.FC = () => {
       </section>
 
       <section className="container max-w-6xl mx-auto px-4 py-16">
-        <Card className="bg-gradient-to-r from-blue-900 to-blue-800 border-0 text-white">
+        <Card className="bg-linear-to-r from-blue-900 to-blue-800 border-0 text-white">
           <CardContent className="flex flex-col sm:flex-row items-center justify-between p-8">
             <div>
               <h3 className="text-2xl font-bold">Special Offers Waiting</h3>
